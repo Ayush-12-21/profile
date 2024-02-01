@@ -15,7 +15,7 @@ ul{
 
 .sidebar{
     background-color: gray;
-    height: 100vh;
+    height: 105vh;
     width:400px;
 }
 
@@ -164,7 +164,7 @@ ul{
     margin: 15px 80px;
     border-radius: 14px;
     padding: 24px;
-    color: white;
+    color: black;
     background-image: url(back2.png);
 }
 .eduinfo h2{
