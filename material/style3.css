@@ -33,6 +33,13 @@ ul{
     text-decoration: none;
     color: white;
 }
+.sidebar nav li a:hover{
+    background-color: rgb(111, 235, 158);
+    color: black;
+    border: none;
+    border-radius: 12px;
+    padding: 7px;
+}
 
 
 .devpic img{
