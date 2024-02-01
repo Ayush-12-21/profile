@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: gray;
+    height: 100vh;
+    width:400px;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.devpic img{
+    width: 478px;
+    height: 478px;
+
+    
+}
+
+.main {
+    background-color: blue;
+    width:90vw;
+}
+
+.infocontainer{
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    margin-top: 150px;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 24px;
+}
+
+.name{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.about{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    font-size: larger;
+    border-radius: 3px;
+    padding: 6px;
+    margin-right: 6px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+.btn-sm {
+    font-size: larger;
+    border-radius: 3px;
+    padding: 2px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+.btn:hover {
+    background-color: red;
+    color: black;
+}
+.btn-sm:hover {
+    background-color: red;
+    color: black;
+}
+
+.contactform{
+    width: 90vw;
+    background-image: url(back3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+
+.contactform h1{
+    margin-top: 160px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding-bottom: 12px;
+
+}
+
+.contactform form div{
+    width: 400px;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+        width: 26vw;
+        border-radius: 5px;
+        margin: 6px 0 0 0;
+        padding: 3px;
+}
+
+.form{
+    background-color: bluevolet;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#emailhelp{
+    font-size: 8px;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+    padding-bottom: 10px;
+
+}
+#form-check input{ 
+    width:20px;
+}
+.education h1{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.education {
+    background-color: rgb(74, 193, 236);
+    padding-bottom: 19px;
+}
+.eduinfo{
+    margin: 15px 80px;
+    border-radius: 14px;
+    padding: 24px;
+    color: white;
+    background-image: url(back2.png);
+}
+.eduinfo h2{
+    padding: 12px 0;
+}
+.in {
+    font-size: 20px;
+}
+
+.service{
+    width: 90vw;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(back.png);
+
+}
+.service1{
+    padding: 45px;
+}
+.head{
+    padding-bottom: 35px;
+    font-size: 45px;
+}
+
+.service1{
+    font-size: 40px;
+    padding-bottom: 4px;
+    padding-bottom: 10px;
+}
+.a{
+    font-size: 24px;
+    list-style-type: disc;
+}
+
+
+
+.hobby {
+    flex: 3;
+    padding: 20px;
+    background-image: url(back5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .hobbyhead h1{
+    color:white;
+  }
+  
+  .test {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .card {
+    width: 45vw;
+    margin: 10px;
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  .card h2{
+    color: white;
+  }
+  
+  .content {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  #side{
+    top: 0;
+    position: sticky;
+    width: 345px;
+  }
+  
