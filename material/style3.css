@@ -50,8 +50,14 @@ ul{
 }
 
 .main {
-    background-color: blue;
+    background-image:url('back9.jpg');
     width:90vw;
+}
+
+.main1{
+
+    width:90vw;
+    background-color:rgb(74,193,216);
 }
 
 .infocontainer{
