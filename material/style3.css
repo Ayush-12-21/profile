@@ -74,6 +74,7 @@ ul{
 
 .hello{
     font-size: 24px;
+    color:white;
 }
 
 .name{
@@ -81,11 +82,13 @@ ul{
     font-size: 35px;
     margin-bottom: 8px;
     font-weight: bold;
+    color:white;
 }
 
 .about{
     font-size: 20px;
     margin-bottom: 10px;
+    color:white;
 }
 
 .btn {
