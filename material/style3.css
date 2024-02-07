@@ -50,7 +50,7 @@ ul{
 }
 
 .main {
-    background-image:url(back9.jpg);
+    background-image:url(backgr.png);
     width:90vw;
 }
 
@@ -107,7 +107,7 @@ ul{
     padding: 2px;
     cursor: pointer;
     color: white;
-    background-color: black;
+    background-color:rgb(74,193,216);
 }
 .btn:hover {
     background-color: red;
