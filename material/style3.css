@@ -51,6 +51,8 @@ ul{
 
 .main {
     background-image:url(backgr.png);
+    background-repeat:no-repeat;
+    background-size:cover;
     width:90vw;
 }
 
