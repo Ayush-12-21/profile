@@ -165,7 +165,7 @@ ul{
 }
 .education {
     background-color: rgb(74, 193, 236);
-    padding-bottom: 19px;
+    padding-bottom: 10px;
 }
 .eduinfo{
     margin: 15px 80px;
@@ -181,32 +181,11 @@ ul{
     font-size: 20px;
 }
 
-.service{
-    width: 90vw;
-    margin: 0px;
-    padding: 0px;
-    background-image: url(back.png);
 
-}
-.service1{
-    padding: 45px;
-}
 .head{
     padding-bottom: 35px;
     font-size: 45px;
 }
-
-.service1{
-    font-size: 40px;
-    padding-bottom: 4px;
-    padding-bottom: 10px;
-}
-.a{
-    font-size: 24px;
-    list-style-type: disc;
-}
-
-
 
 .hobby {
     flex: 3;
