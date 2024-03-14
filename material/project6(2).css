@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('backgr.webp');
+}
+
+.calculator{
+    height: 30vw;
+    width: 48vw;
+    position: fixed;
+    background: linear-gradient(45deg,rgb(240, 71, 71),rgb(209, 237, 95));
+    border-radius: 10px;
+    box-shadow: 34px;
+    top: 8%;
+    left: 26%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 54%;
+    padding-left: 17%;
+    padding-top: 3%;
+   
+}
+
+.info div {
+    display: flex;
+    flex-direction: column;
+    width: 108%;
+    padding: 0%;
+    
+}
+
+.name h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+
+.name{
+    width: 20%;
+    padding-top: 16%;
+    padding-left: 2%;
+    
+}
+
+.form{
+    height: 22%;
+    border-radius: 7%;
+}
+
+.form div{
+    padding: 10%;
+    border-radius: 5%;
+}
+
+#Rs{
+    padding: 3%;
+    
+}
+
+#tip{
+    padding: 3%;
+}
+
+.button{
+    padding: 3%;
+}
+
+#res{
+    color: rgb(8, 7, 7);
+    font-size: x-large;
+    font-weight: 800;
+    
+}
+.result{
+    align-items: center;
+}
