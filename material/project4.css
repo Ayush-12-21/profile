@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.container{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('gym.webp');
+}
+
+.calculator{
+    height: 30vw;
+    width: 48vw;
+    position: fixed;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    box-shadow: 34px;
+    top: 8%;
+    left: 26%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 54%;
+    padding-left: 17%;
+    padding-top: 3%;
+}
+
+.info div {
+    display: flex;
+    flex-direction: column;
+    width: 108%;
+    padding: 1%;
+}
+
+.name h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+
+.name{
+    width: 20%;
+    padding-top: 10%;
+    padding-left: 2%;
+}
+
+.form{
+    height: 20%;
+    border-radius: 2%;
+
+}
+
+.form div{
+    padding: 10%;
+    border-radius: 5%;
+}
+
+#wt{
+    padding: 3%;
+    
+}
+
+#ht{
+    padding: 3%;
+}
+
+.button{
+    padding: 3%;
+}
+
+#res{
+    color: red;
+    font-size: larger;
+}
+.result{
+    align-items: center;
+}
