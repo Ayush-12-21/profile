@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sliding Login Page</title>
+    <link rel="stylesheet" href="project1.css">
+    <script src="project1.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="left" id="signupForm">
+            <h1>Sign Up</h1>
+            <div class="info">
+                <input type="text" placeholder="Enter Your Email/Number" id="phone1">
+            </div>
+            <div class="info">
+                <input type="password" placeholder="Create Your Password" id="password1">
+            </div>
+            <div class="info">
+                <input type="password" placeholder="Enter the same password Again" id="password2">
+            </div>
+            <div id="check">
+                <input type="checkbox" name="policy" id="checkbox">
+                <label for="checkbox">I agree to the terms and conditions</label><br>
+            </div>
+            <div id="log">
+                <input type="button" id="btn" value="Sign Up" onclick="slide()">
+            </div>
+        </div>
+        <div class="right" id="loginForm">
+            <h1>Login</h1>
+            <div class="info1">
+                <input type="text" placeholder="Enter Your Registerd Number" id="phone">
+            </div>
+            <div class="info1">
+                <input type="password" placeholder="Enter Your Password" id="password">
+            </div>
+        
+                <input type="submit" id="btn3" value="Register" onclick="slide()">
+                <label for="btn3">Did not Registerd yet! Register Here</label>
+    
+            <div id="sub">
+                <input type="button" id="btn2" value="Login" onclick="slide()">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

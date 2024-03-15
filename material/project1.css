@@ -1,0 +1,140 @@
+body {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.container{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(45deg,rgb(239, 91, 91),rgb(99, 99, 231));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left{
+    width: 30vw;
+  height: 60vh;
+  background-color: aqua;
+  position: fixed;
+  left: 51%;
+  border-radius: 0.5%;
+
+}
+
+
+.right{
+    width: 30vw;
+    height: 60vh;
+    background-color: aquamarine;
+    position: fixed;
+    left: 21%;
+    border-radius: 0.5%;
+}
+
+.left h1{
+    text-align: center;
+    padding: 5%;
+}
+
+.right h1{
+    text-align: center;
+    padding: 5%;
+}
+
+.left div input{
+    height: 34px;
+    border-radius: 4px;
+    width: 85%;
+
+}
+
+.info{
+    padding-top: 5%;
+    padding-left: 18%;
+    
+  }
+
+
+#checkbox{
+    size: 12px;
+}
+
+
+
+.right div input{
+    height: 36px;
+    border-radius: 7px;
+    width: 85%;
+
+}
+
+.info1{
+    padding-top: 5%;
+    padding-left: 18%;
+    
+  }
+
+#sub{
+        
+        padding-top: 2%;
+        padding-left: 18%;
+}
+
+#sub input{
+    background-color: rgb(143, 143, 243);
+    cursor: pointer;
+}
+
+#btn2:hover{
+    background-color: rgb(244, 104, 49);
+}
+#log input{
+    background-color: rgb(143, 143, 243);
+    cursor: pointer;
+}
+
+#btn:hover{
+    background-color: rgb(244, 104, 49);
+}
+
+
+#btn3:hover{
+    background-color: rgb(244, 104, 49);
+    cursor: pointer; 
+}
+
+#btn3{
+    margin-top: 22%;
+    margin-left: 18%;
+    background-color: rgb(143, 143, 243);
+}
+
+#checkbox{
+    height: 18px;
+    width: 27px;
+    cursor: pointer;
+}
+
+#log{
+    padding-left: 18%;
+    padding-top: 2%;
+}
+
+#check{
+    padding-left: 18%;
+    padding-top: 15%;
+}
+
+input[type="text"],
+input[type="password"] {
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
