@@ -1,0 +1,19 @@
+.do{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background: linear-gradient(45deg,rgb(182, 182, 247),rgb(235, 235, 120));
+}
+
+.table{
+    border: 2px solid black;
+}
+
+.row{
+    border: 2px solid black;
+}
+.no-of-notes{
+    border: 2px solid black;
+}

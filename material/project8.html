@@ -1,0 +1,85 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+  
+<head> 
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Pay Role Management</title>
+    <link rel="stylesheet" href="project8.css">
+</head> 
+  
+<body>
+    
+    <h1><center><strong>Pay Role Management</strong></center></h1>
+    <p><strong><center>Enter the bill amount and the cash given by the customer and know minimum number of notes to return</center></strong></p><br>
+    <div class="do">
+        <div>
+    <label for="bill"><strong>enter bill amount</strong></label><br>
+    <input type="text" class="inputs" id="bill"><br>
+    <label for="paid" ><strong>enter the amount paid</strong></label><br>
+    <input type="text" class="inputs" id="paid"><br>
+    <p id="demo"> . </p>
+    <button id="calculate">Calculate</button>
+    </div>
+    </div>
+    <br>
+    <div class="do">
+        <table class="table"> 
+            <caption> 
+                <strong>Return Change</strong> 
+            </caption> 
+            <tr class="row"> 
+                <th class="row">No of Notes</th> 
+                <td class="no-of-notes"></td> 
+                <td class="no-of-notes"></td> 
+                <td class="no-of-notes"></td> 
+                <td class="no-of-notes"></td> 
+                <td class="no-of-notes"></td> 
+                <td class="no-of-notes"></td> 
+                <td class="no-of-notes"></td> 
+            </tr> 
+            <tr> 
+                <th class="row">Notes</th> 
+                <td class="row">2000</td> 
+                <td class="row">500</td> 
+                <td class="row">100</td> 
+                <td class="row">20</td> 
+                <td class="row">10</td> 
+                <td class="row">5</td> 
+                <td class="row">1</td> 
+            </tr> 
+        </table> 
+    </div><br>
+    <script>
+        document.getElementById("calculate").onclick=function(){
+            let bill=parseFloat(document.getElementById("bill").value);
+            let paid=parseFloat(document.getElementById("paid").value);
+            var noofnotes=document.querySelectorAll(".no-of-notes");
+            let arr=[2000,500,100,20,10,5,1];
+            if(paid<bill){
+                document.getElementById("demo").textContent="Amount paid is less than bill";
+            }
+            else if(paid==bill)  document.getElementById("demo").textContent="Amount paid is equal to bill";
+            else{
+                document.getElementById("demo").textContent="";
+                let remain=paid-bill;
+                for(var i=0;i<arr.length;i++){
+                    const paisa=Math.trunc(remain/arr[i]);
+                    remain=remain%arr[i];
+                    noofnotes[i].innerText=paisa;
+                }
+        
+            }
+        }
+        </script>
+
+
+    
+</body>
+</html> 
+
+
+
+
+
