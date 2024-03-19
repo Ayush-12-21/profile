@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <title>
+        Slide Down a Navigation Bar on Scroll
+        using HTML CSS and JavaScript
+    </title>
+     
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1">
+     
+    <style>
+        body{
+            background: linear-gradient(90deg, rgb(131, 243, 241), rgb(161, 161, 246));
+
+        }
+     
+        article {
+            position: fixed;
+            margin-left: 10px;
+        }
+         
+        #navlist {
+            background-color: #0074D9;
+            position: fixed;
+            left: 75%;
+            top: -60px;
+            width: auto;
+            display: block;
+            transition: top 0.3s;
+        }
+         
+        #navlist a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 12px;
+            text-decoration: none;
+            font-size: 15px;
+        }
+         
+        #navlist a:hover {
+            background-color: #e87373;
+            color: rgb(252, 251, 251);
+        }
+    </style>
+</head>
+ 
+<body>
+     
+    <article>
+        <h1 style="color:rgb(0, 14, 0);">
+            IIIT Allahabad
+        </h1>
+         
+    
+            <b>A institute of national importance</b>
+         
+         
+            <p>
+                The Indian Institute of Information Technology Allahabad (IIIT-A) was<br>
+                established in 1999, as a center of excellence in Information Technology
+                (IT) and allied areas. The institute was conferred the "Deemed<br>
+                University" status by the Government of India in the year 2000. It was
+                declared as an “Institute of National Importance” by the Act of the<br>
+                Parliament, Govt. of India in 2014. The Institute has been conceived
+                with the objective of developing professional expertise and skilled<br>
+                manpower in IT and areas of allied research. As an apex institute in the
+                area of IT, IIIT-A has been contributing towards strengthening the<br>
+                indigenous capability necessary for exploiting profitably and harnessing
+                multi-dimensional facets of IT and allied areas at all levels, and<br>
+                attaining expertise to enable the country to emerge as a leading player
+                in the global arena.
+              </p>
+ 
+    </article>
+     
+    
+    <div id="navlist">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Students</a>
+        <a href="#">Careers</a>
+        <a href="#">Contact Us</a>
+    </div>
+ 
+    
+    <div class="scrollable"
+        style="padding:15px 15px 900px;">
+    </div>
+ 
+    <script>
+        window.onscroll = function() {
+            scroll()
+        };
+ 
+        function scroll() {
+            if (document.body.scrollTop > 20 || 
+                    document.documentElement.scrollTop > 20)
+            {
+                document.getElementById("navlist").style.top
+                            = "0";
+            }
+            else {
+                document.getElementById("navlist").style.top
+                            = "-60px";
+            }
+        }
+    </script>
+</body>
+ 
+</html>
